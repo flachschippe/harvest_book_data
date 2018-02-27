@@ -1,6 +1,6 @@
-#harvest_book_data
+# harvest_book_data.py
 
 * harvest title, author and keywords from dnb.de
 * generates graphML file 
   * nodes as keywords
-  * edges from keywords by the same title
+  * nodes from the same title are connected by edges
